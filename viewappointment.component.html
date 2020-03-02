@@ -1,0 +1,211 @@
+<Style>
+body {
+    background-image: url("https://image.freepik.com/free-vector/spot-light-background_1284-4685.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+</Style>
+<body >
+<h1>View Appointment</h1>
+
+<br>
+
+<div class="b">
+<table class="table table-hover table-sm" >
+
+
+
+
+
+
+
+  <thead class="thead-light">
+
+
+
+
+
+
+
+   <tr>
+
+
+
+
+
+
+
+   <th> FIRSTNAME</th>
+
+
+
+
+
+
+
+   <th>LASTNAME</th>
+
+
+
+
+
+
+
+   <th> AGE</th>
+
+
+
+
+
+
+
+   <th>ADDRESS</th>
+
+
+
+
+
+
+
+   <th>EMAIL</th>
+
+
+
+
+
+
+
+   <th>CITY</th>
+
+
+
+
+
+
+
+   <th>COUNTRY</th>
+
+
+
+
+
+
+
+   <th>STATE</th>
+
+
+
+
+
+
+
+  
+
+
+
+   </tr>
+
+
+
+
+
+
+
+  </thead>
+
+
+
+
+
+
+
+  <tbody>
+
+
+
+
+
+
+
+   <tr *ngFor="let user of registerList">
+
+
+
+
+
+
+
+   <td>{{user.firstname}}</td>
+
+
+
+
+
+
+
+   <td>{{user.lastname}}</td>
+
+
+
+
+
+
+
+   <td>{{user.age}}</td>
+
+
+
+
+
+
+
+   <td>{{user.streetaddress}}</td>
+
+
+
+
+
+
+
+   <td>{{user.email}}</td>
+
+
+
+
+
+
+
+   <td>{{user.city}}</td>
+
+
+
+
+
+
+
+   <td>{{user.country}}</td>
+
+
+
+
+
+
+
+   <td>{{user.state}}</td>
+
+
+
+
+
+   </tr>
+
+
+
+   </tbody>
+
+
+
+  </table>
+</div>
+</body>
+ 
